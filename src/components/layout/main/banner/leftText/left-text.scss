@@ -1,6 +1,6 @@
 @import "../../../common/style";
 .leftText{
-  @include PositionBox(absolute,70px,200px);
+  @include PositionBox(absolute,65px,210px);
   color:#ffffff;
   text-shadow: 0px 4px 4px rgba(0, 51, 99, 0.2);
   .cloudImg{
@@ -33,6 +33,7 @@
       }
     }
     .maxMin_temper{
+      padding-top:5px;
       @include FlexBox($js:space-around);
       font-size: 24px;
 

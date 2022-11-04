@@ -8,6 +8,8 @@
   box-shadow:0px 4px 16px$boxShadow-color;
   border-radius: 10px;
   position: relative;
+  z-index: 30;
+  cursor: pointer;
   span{
     font-size: 18px;
     font-weight: 500;

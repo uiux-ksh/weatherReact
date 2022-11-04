@@ -9,19 +9,23 @@
       <change afterPath="$PROJECT_DIR$/../movie/src/components/landingPage/LandingPage.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/src/components/landingPage/section/Section.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/src/hooks/useAxios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/header/selectMap/SelectMap.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/Main.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/banner/leftText/leftText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/banner/rightImg/RightImg.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/banner/rightImg/right-img.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/newsText/NewsText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/banner/bannerInterface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interfaces/newsText/newsTextInterface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/ getup/GetUp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/ getup/getupList/GetUpList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/ getup/getupList/getupItem/GetupItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/daummy/getupData.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/ClientApp/src/components/Mapping.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/ClientApp/src/components/Mapping.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/common/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/common/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/banner/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/banner/Banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/banner/banner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/banner/banner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/banner/leftText/left-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/banner/leftText/left-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/newsText/news-text.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/newsText/news-text.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -82,7 +86,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667529096473</updated>
-      <workItem from="1667529097683" duration="15158000" />
+      <workItem from="1667529097683" duration="22198000" />
     </task>
     <servers />
   </component>
