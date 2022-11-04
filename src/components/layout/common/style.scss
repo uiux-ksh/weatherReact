@@ -1,0 +1,33 @@
+//color
+$background-color:#FCFDFF;
+$boxShadow-color:#DBEAFE;
+$text-color:#1E3A8A;
+
+//반응형
+@mixin PC {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin Mobile {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+//Box Mixin
+@mixin PositionBox ($p:null,$t:null,$l:null,$b:null,$r:null){
+  position:$p;
+  top:$t;
+  left:$l;
+  bottom:$b;
+  right:$r;
+
+}
+@mixin FlexBox ($d:null,$js:null,$item:null){
+  display: flex;
+  flex-direction: $d;
+  justify-content: $js;
+  align-items: $item;
+}

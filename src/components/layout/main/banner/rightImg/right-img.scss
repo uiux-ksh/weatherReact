@@ -1,0 +1,17 @@
+@import '../../../common/style';
+.monsterImg{
+
+  @include PositionBox(absolute,5px,$r:150px);
+  img{
+    width: 100%;
+    animation: motion .5s linear 0s infinite alternate; margin-top: 0;
+  }
+}
+
+
+
+
+@keyframes motion {
+  0% {margin-top: 0px;}
+  100% {margin-top: 10px;}
+}

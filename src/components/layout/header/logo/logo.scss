@@ -1,0 +1,7 @@
+@import "../../common/style";
+.logo{
+  @include PositionBox(absolute,$l:2rem);
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color:$text-color;
+}

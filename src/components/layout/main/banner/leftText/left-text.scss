@@ -1,0 +1,41 @@
+@import "../../../common/style";
+.leftText{
+  @include PositionBox(absolute,70px,200px);
+  color:#ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 51, 99, 0.2);
+  .cloudImg{
+    @include  FlexBox($js:center,$item:center);
+    height: 50px;
+    .img{
+      width: 50%;
+      height: 100%;
+      display:inline-block;
+      img{
+        object-fit: contain;
+      }
+    }
+    .todayText{
+      width: 100%;
+      font-size: 24px;
+    }
+  }
+  .temperature{
+
+
+    .mainTitle {
+
+      sup{
+        font-size: 60px;
+
+      }
+      span{
+        font-size: 100px;
+      }
+    }
+    .maxMin_temper{
+      @include FlexBox($js:space-around);
+      font-size: 24px;
+
+    }
+  }
+}

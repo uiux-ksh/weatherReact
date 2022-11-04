@@ -1,0 +1,23 @@
+@import "../../common/style";
+.selectMap{
+   display: flex;
+   width: 400px;
+   height:60px;
+   background:#ffffff;
+   border-radius: 10px;
+   box-shadow: 0px 4px 16px $boxShadow-color;;
+}
+.selectMap_list{
+   width: 100%;
+   @include FlexBox($js:space-around,$item:center);
+   text-align: center;
+   font-weight: 600;
+   font-size: 18px;
+   color:$text-color;
+   li{
+      &:nth-of-type(2){
+         width: 200px;
+
+      }
+   }
+}
