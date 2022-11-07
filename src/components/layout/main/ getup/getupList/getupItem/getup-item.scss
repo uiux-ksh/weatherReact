@@ -1,0 +1,54 @@
+@import '../../../../common/style';
+.getupItemWrap{
+  width: 95%;
+  padding:40px 10px;
+  height: 90%;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 20px;
+  box-shadow: 2px 2px 16px $boxShadow-color;
+  cursor: pointer;
+  &.active{
+    background: $text-color;
+    .getupItemList{
+      span{
+        color:#ffffff;
+      }
+    }
+  }
+  h3{
+    span{
+      width: 55%;
+      height: 35px;
+      line-height: 35px;
+      display: inline-block;
+      background: $sub-color;
+      font-size: 16px;
+      color:$text-color;
+      border-radius: 20px;
+    }
+  }
+  .getupItemList{
+
+    display: flex;
+    flex-wrap: wrap;
+    padding:20px 10px;
+    li{
+      margin-top:40px;
+      width: 50%;
+      @include FlexBox(column,center,center);
+      gap:10px;
+      div{
+        width:  80px;
+        height: 80px;
+        img{
+          object-fit: contain;
+        }
+      }
+      span{
+        color:$text-color;
+        font-weight: 600;
+      }
+    }
+  }
+}

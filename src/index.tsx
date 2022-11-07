@@ -10,6 +10,7 @@ import 'swiper/css/scrollbar';
 
 
 
+
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
