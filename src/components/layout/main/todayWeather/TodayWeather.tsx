@@ -7,11 +7,11 @@ function TodayWeather() {
 
 
     return(
-        <div>
+        <section>
             <h2 className="todayTitle">오늘의 날씨</h2>
             <TodayChart />
             <TodayDetail />
-        </div>
+        </section>
     )
 }
 export default TodayWeather;

@@ -19,10 +19,10 @@
          font-size: 20px;
          .todayDetailImg{
            display: inline-block;
-           width: 20px;
-           height: 20px;
+           width: 24px;
+           height: 24px;
            img{
-             vertical-align:text-top;
+             vertical-align:text-bottom;
            }
          }
          span{
@@ -40,7 +40,7 @@
               .todaySubText{
                 color:$textSub-color;
                 font-weight: 600;
-                font-size: 24px;
+                font-size: 18px;
                 position: relative;
                 &:before{
                   content:'';
@@ -59,17 +59,17 @@
    }
 }
 .usually{
-  font-size: 32px;
+  font-size: 24px;
   color:$usually;
   font-weight: 600;
 }
 .bad{
-  font-size: 32px;
+  font-size: 24px;
   color:$bad;
   font-weight: 600;
 }
 .good{
-  font-size: 32px !important;
+  font-size: 24px !important;
   color:$good !important;
   font-weight: 600!important;
 }
@@ -80,7 +80,7 @@
   font-weight: 600;
 }
 .side{
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 600;
   color:$text-color;
 }

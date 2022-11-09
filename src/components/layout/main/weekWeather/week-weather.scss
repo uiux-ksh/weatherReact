@@ -1,0 +1,46 @@
+ @import "../../common/style";
+.weekWeatherTitle{
+  margin:50px 0 30px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,.3);
+  font-weight: 600;
+
+}
+ .weekWeatherWrap{
+   width: 100%;
+   border-radius: 20px;
+   height: auto;
+   box-shadow: 0px 4px 16px $boxShadow-color;
+   padding:30px 110px;
+     .weekWeatherList {
+       @include FlexBox($js:space-around,$item:center);
+       width: 100%;
+       font-size: 20px;
+       font-weight: 600;
+       color:$text-color;
+       .img{
+         width:60px;
+
+       }
+       li{
+
+         .all_bar{
+           width: 400px;
+           @include PositionBox(relative,50%,0);
+           transform: translateY(-50%);
+           border-radius: 30px;
+           background:#ccc;
+           height: 10px;
+         }
+         .active_bar{
+           @include PositionBox(absolute,50%,0);
+           transform: translateY(-50%);
+           height: 10px;
+           border-radius: 20px;
+         }
+       }
+     }
+   .date{
+     width: 40px;
+     text-align: center;
+   }
+ }

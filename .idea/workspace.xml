@@ -9,24 +9,26 @@
       <change afterPath="$PROJECT_DIR$/../movie/src/components/landingPage/LandingPage.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/src/components/landingPage/section/Section.jsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../movie/src/hooks/useAxios.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/text/Text.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/text/text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/daummy/todayDetail.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayDetail/todayItem/TodayItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/weekWeather/WeekWeather.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/weekWeather/week-weather.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/layout/main/weekWeather/weekItem/WeekItem.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Project1/ClientApp/src/components/Mapping.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Project1/ClientApp/src/components/Mapping.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/common/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/common/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/main/ getup/getup.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/ getup/getup.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/TodayChart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/TodayChart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/chart/Chart.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/chart/Chart.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/chart/chart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/chart/chart.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/today-chart.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayChart/today-chart.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/footer/footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/footer/footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/header/selectMap/SelectMap.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/header/selectMap/SelectMap.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/ getup/GetUp.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/ getup/GetUp.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/TodayWeather.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/TodayWeather.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/today-weather.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/today-weather.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayDetail/TodayDetail.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayDetail/TodayDetail.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayDetail/today-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout/main/todayWeather/todayDetail/today-detail.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/constants/color.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/constants/color.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/daummy/chartData.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/daummy/chartData.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/daummy/todayDetail.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/daummy/todayDetail.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/interfaces/today/todayInterface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/interfaces/today/todayInterface.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +97,7 @@
       <workItem from="1667869547990" duration="14293000" />
       <workItem from="1667895187666" duration="3480000" />
       <workItem from="1667898817972" duration="3195000" />
-      <workItem from="1667957038777" duration="7907000" />
+      <workItem from="1667957038777" duration="17731000" />
     </task>
     <servers />
   </component>

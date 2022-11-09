@@ -6,6 +6,7 @@ const todayDetail = [
        secondText:'초미세먼지',
        firstState:'좋음',
        secondState:'나쁨',
+       img:'https://i.imgur.com/B1Qqb9m.png',
     },
 
     {
@@ -15,6 +16,7 @@ const todayDetail = [
         secondText:'omm',
         firstState:"",
         secondState:"",
+        img:'https://i.imgur.com/xmt4ZSJ.png',
     },
 
 
@@ -25,6 +27,7 @@ const todayDetail = [
         secondText:'2m/s',
         firstState:"",
         secondState:"",
+        img:'https://i.imgur.com/GhppyQR.png',
     },
 
 
@@ -35,6 +38,7 @@ const todayDetail = [
         secondText:"",
         firstState:"",
         secondState:"",
+         img:'https://i.imgur.com/gkxb7HJ.png',
     },
 
     {
@@ -44,6 +48,7 @@ const todayDetail = [
         secondText:'',
         firstState:'',
         secondState:'',
+         img:'https://i.imgur.com/B1Qqb9m.png',
     },
 
 
@@ -54,6 +59,7 @@ const todayDetail = [
         secondText:'일몰',
         firstState:'오전 06:24',
         secondState:'오후 05:27',
+         img:'https://i.imgur.com/xmt4ZSJ.png',
     },
 
 

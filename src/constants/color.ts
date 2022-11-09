@@ -1,4 +1,8 @@
 const CHART_CIRCLE = "#BFDBFE";
+const YELLOW ="#CA8A04";
+const BAD ="#DC2626";
+const GOOD ="#16A34A";
+const BLUE = "#1E3A8A";
 
 
-export {CHART_CIRCLE};
+export {CHART_CIRCLE,YELLOW,BAD,GOOD,BLUE};
