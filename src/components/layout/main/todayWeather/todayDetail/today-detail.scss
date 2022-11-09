@@ -7,12 +7,80 @@
      flex-wrap: wrap;
      justify-content: space-between;
      li{
+       padding:20px;
        margin-top:30px;
        width: 30%;
        box-shadow: 0px 4px 8px $boxShadow-color;
        height: 250px;
        border-radius: 20px;
+       @include  FlexBox(column);
+       .todayDetailTitle{
+         font-weight: 700;
+         font-size: 20px;
+         .todayDetailImg{
+           display: inline-block;
+           width: 20px;
+           height: 20px;
+           img{
+             vertical-align:text-top;
+           }
+         }
+         span{
+           margin-right: 10px;
+           color:$text-color;
+         }
+       }
+       .todayDetailText{
+         height: 100%;
+         @include FlexBox(column,$js:center,$item:center);
+         gap:5px;
+          >div{
+            @include FlexBox($item:center,$js:center);
+            gap:25px;
+              .todaySubText{
+                color:$textSub-color;
+                font-weight: 600;
+                font-size: 24px;
+                position: relative;
+                &:before{
+                  content:'';
+                  @include PositionBox(absolute,50%,$r:-20px);
+                  transform: translateY(-50%);
+                  display: block;
+                  width:10px;
+                  height: 4px;
+                  background:$text-color;
 
+                }
+            }
+          }
+       }
      }
    }
+}
+.usually{
+  font-size: 32px;
+  color:$usually;
+  font-weight: 600;
+}
+.bad{
+  font-size: 32px;
+  color:$bad;
+  font-weight: 600;
+}
+.good{
+  font-size: 32px !important;
+  color:$good !important;
+  font-weight: 600!important;
+}
+
+.omm{
+  font-size: 20px;
+  color:#3b82f6;
+  font-weight: 600;
+}
+.side{
+  font-size: 32px;
+  font-weight: 600;
+  color:$text-color;
 }

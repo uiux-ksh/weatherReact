@@ -1,4 +1,4 @@
-
+import './chart.scss';
 import {
     Chart as ChartJS,
     CategoryScale,
@@ -10,9 +10,10 @@ import {
     Legend, Filler,
 } from 'chart.js';
 import { Line } from 'react-chartjs-2';
-import {CHART_CIRCLE,CHART_BG} from "../../../../../../constants/color";
+import {CHART_CIRCLE,} from "../../../../../../constants/color";
 import ChartData from "../../../../../../daummy/chartData";
-
+import ChartDataLabels from 'chartjs-plugin-datalabels'
+export var defaults: {};
 
 ChartJS.register(
     CategoryScale,
@@ -23,28 +24,34 @@ ChartJS.register(
     Tooltip,
     Legend,
     Filler,
+    ChartDataLabels,
+
 );
 
 
 export const options = {
-    responsive: true,
 
+    responsive: true,
     plugins: {
+        datalabels: {
+            color: '#1E3A8A',
+        },
         legend: {
             display: false,
-            position: 'top' as const,
 
         },
         title: {
             display: false,
-            text: 'Chart.js Line Chart',
+            text: '오늘의 날씨',
+            fontSize: 25,
 
         },
-        xAxis: {
-            visible: false,
-        }
+
+
+
     },
     scales:{
+
      y:{
          display:false,
          min:0,
@@ -53,33 +60,36 @@ export const options = {
          tickColor: 'red'
      },
      x:{
+         display:false,
+         grid:{
+             display:false,
+             drawBorder: false,
+         },
 
      }
-
-
-
-
-    }
+    },
 };
 
-const labels = ['월요일', '화요일', '수요일', '목요일', '금요일', '토요일', '일요일'];
-
+const labels = ['아침9시','아침11시','오후1시','오후3시','오후5시','오후7시','오후9시','오후11시','새벽1시','새벽3시','새벽5시','아침7시'];
+const ChartDatas = ChartData.map((list)=> list.data);
 export const data = {
 
     labels,
     datasets: [
         {
-            data:[10,14,12,15,24,26,30],
-            borderColor: "rgba(207,207,205,0.5)",
+            data:ChartDatas[0],
+            borderColor: "#BFDBFE",
             backgroundColor:  (context:any) => { //그라디언트사용하기
                 const ctx = context.chart.ctx;
                 const gradient = ctx.createLinearGradient(0, 0, 0, 200);
-                gradient.addColorStop(0, "rgba(207,207,205,0.3)");
-                gradient.addColorStop(1, "rgba(191,219,254,0.5)");
+                gradient.addColorStop(0.5, "rgba(191,219,254,0.3)");
+                gradient.addColorStop(1, "rgba(237,237,235,0.3)");
                 return gradient;
             },
             fill:true,
-            pointRadius:5,
+            pointRadius: 12,
+            pointHoverRadius: 17,
+
 
 
         },
@@ -91,7 +101,7 @@ export const data = {
 function Chart(){
     return(
         <div className="line">
-          <Line options={options} data={data} width={10} height={3} />
+          <Line options={options} data={data}  width={10} height={3} />
         </div>
     )
 }
